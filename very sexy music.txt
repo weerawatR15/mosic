@@ -1,4 +1,3 @@
-print("works fine")
 local sound = Instance.new("Sound")
 sound.SoundId = "rbxassetid://1414618134"
 sound.Looped = true

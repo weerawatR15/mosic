@@ -1,14 +1,11 @@
+-- RED ME --
+Since roblox audio sucks replace those id with yours
+
 local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://1414618134"
+sound.SoundId = "rbxassetid://10986659478" -- U can replace with the ur id
 sound.Looped = true
 sound.Parent = workspace
 sound:Pause()
-        end
-    end)
-end)
-sound = {
-             "https://github.com/weerawatR15/mosic/blob/IsolationRemix.mp3?raw=true", -- SoundId Link or Roblox ID
-              { Volume = 1 }, -- Sound properties
         end
     end)
 end)
@@ -17,17 +14,14 @@ sound:Play()
 end
 game.Players.PlayerAdded:Connect(function(player) -- runs every time a player joins
     player.Chatted:Connect(function(msg) -- runs once the player that joined chats a message
-        if msg == ":music limbo" then pcall nh
+        if msg == ":mosic power trup" then pcall nh
             -- do stuff here if the condition is met
-        end
-    end)
-end)
 print("sexy skid")
 game.Players.PlayerAdded:Connect(function(player) -- runs every time a player joins
     player.Chatted:Connect(function(msg) -- runs once the player that joined chats a message
-        if msg == ":music" then pcall stap
+        if msg == ":mosic" then pcall stap
             -- do stuff here if the condition is met
-local nh = function()
+local stap = function()
 sound:Stop()
 Cheektop:Stop()
 end

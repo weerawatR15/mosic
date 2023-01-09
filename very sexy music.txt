@@ -1,0 +1,25 @@
+local limbo = Instance.new("Sound")
+limbo.SoundId = "rbxassetid://1414618134"
+limbo.Looped = true
+limbo.Parent = workspace
+limbo:Pause()
+        end
+    end)
+end)
+limbo = {
+             "https://github.com/weerawatR15/mosic/blob/ec2f5847321b435a4d2f390d88c4c455b0348d57/IsolationRemix.mp3?raw=true", -- SoundId Link or Roblox ID
+              { Volume = 1 }, -- Sound properties
+        end
+    end)
+end)
+local nh = function()
+sound:Play()
+end
+game.Players.PlayerAdded:Connect(function(player) -- runs every time a player joins
+    player.Chatted:Connect(function(msg) -- runs once the player that joined chats a message
+        if msg == ":music limbo" then pcall nh
+            -- do stuff here if the condition is met
+        end
+    end)
+end)
+print("sexy skid")

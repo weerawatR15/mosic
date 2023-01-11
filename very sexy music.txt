@@ -2,9 +2,10 @@ game.Players.PlayerAdded:Connect(function(player)
     player.Chatted:Connect(function(message)
         if message == ";nong limbo" then
           local sound = Instance.new("Sound")
-sound.SoundId = "https://github.com/weerawatR15/mosic/blob/main/IsolationRemix.mp3?raw=true"
+sound.SoundId = "https://github.com/weerawatR15/mosic/blob/main/IsolationRemix.mp3"
 sound.Parent = game.Workspace
 sound:Play()
+print("Hello world?")
   -- code to run when player says "phrase"
         end
     end)

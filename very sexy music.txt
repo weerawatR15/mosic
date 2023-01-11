@@ -1,27 +1,11 @@
--- RED ME --
-Since roblox audio sucks replace those id with yours
-
-local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://10986659478" -- U can replace with the ur id
-sound.Looped = true
-sound.Parent = workspace
-sound:Pause()
+game.Players.PlayerAdded:Connect(function(player)
+    player.Chatted:Connect(function(message)
+        if message == ";nong limbo" then
+          local sound = Instance.new("Sound")
+sound.SoundId = "https://github.com/weerawatR15/mosic/blob/main/IsolationRemix.mp3?raw=true"
+sound.Parent = game.Workspace
+sound:Play()
+  -- code to run when player says "phrase"
         end
     end)
 end)
-local nh = function()
-sound:Play()
-end
-game.Players.PlayerAdded:Connect(function(player) -- runs every time a player joins
-    player.Chatted:Connect(function(msg) -- runs once the player that joined chats a message
-        if msg == ":mosic power trup" then pcall nh
-            -- do stuff here if the condition is met
-print("sexy skid")
-game.Players.PlayerAdded:Connect(function(player) -- runs every time a player joins
-    player.Chatted:Connect(function(msg) -- runs once the player that joined chats a message
-        if msg == ":mosic" then pcall stap
-            -- do stuff here if the condition is met
-local stap = function()
-sound:Stop()
-Cheektop:Stop()
-end
